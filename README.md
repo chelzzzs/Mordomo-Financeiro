@@ -22,7 +22,7 @@ Criar um dashboard financeiro intuitivo, bonito e responsivo, onde o usuário po
 
 ## 🔗 Demo Online
 
-👉 (https://github.com/chelzzzs/Mordomo-Financeiro)
+👉 https://chelzzzs.github.io/Mordomo-Financeiro/
 
 ---
 
