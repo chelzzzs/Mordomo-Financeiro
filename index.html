@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O Mordomo Financeiro</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <div id="mordomo-container">
+                 
+
+      <img
+        id="mordomo-img"
+        src="images/mordomo_feliz.png.png"
+        alt="Mordomo Financeiro Feliz"
+      />
+         
+    </div>
+
+    <header class="topbar">
+      <h1>O Mordomo Financeiro</h1>
+      <p>Bem-vindo, Chefe! Gerencie suas finanças.</p>
+    </header>
+
+    <main class="container">
+      <section class="card entrada-dados">
+        <h2>💰 Renda Mensal</h2>
+        <div class="input-group">
+          <input
+            type="number"
+            id="renda"
+            placeholder="Digite sua renda mensal"
+          />
+          <button id="btn-salvar-renda">Salvar</button>
+        </div>
+
+        <h2>📉 Adicionar Despesa</h2>
+        <div class="input-group">
+          <input
+            type="text"
+            id="descricao"
+            placeholder="Descrição da despesa"
+          />
+          <input type="number" id="valor" placeholder="Valor" />
+          <select id="categoria">
+            <option value="Moradia">🏠 Moradia</option>
+            <option value="Alimentação">🛒 Alimentação</option>
+            <option value="Transporte">🚗 Transporte</option>
+            <option value="Lazer">🎮 Lazer</option>
+            <option value="Outros">🏷️ Outros</option>
+          </select>
+          <button id="btn-adicionar">Adicionar</button>
+        </div>
+      </section>
+
+      <section class="card resumo">
+        <h2>📊 Visão Geral</h2>
+        <div class="status-container">
+          <div id="medidor">
+            <div id="barra"></div>
+          </div>
+          <p id="mensagem" class="mensagem-status"></p>
+        </div>
+
+        <div class="grafico-container">
+          <canvas id="grafico"></canvas>
+        </div>
+      </section>
+
+      <section class="card historico">
+        <h2>🧾 Histórico de Despesas</h2>
+        <ul id="lista-despesas"></ul>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <p>© 2025 O Mordomo Financeiro — Sua gestão pessoal com elegância.</p>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
