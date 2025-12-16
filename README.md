@@ -22,7 +22,7 @@ Criar um dashboard financeiro intuitivo, bonito e responsivo, onde o usuário po
 
 ## 🔗 Demo Online
 
-👉 **[CLIQUE AQUI PARA ACESSAR O PROJETO ONLINE]**
+👉 (https://github.com/chelzzzs/Mordomo-Financeiro)
 
 ---
 
@@ -46,10 +46,9 @@ Criar um dashboard financeiro intuitivo, bonito e responsivo, onde o usuário po
 
 
 | Dashboard (Status Bom) | Adicionando Despesa |
-| :---: | :---: |
-|(<img width="899" height="717" alt="image" src="https://github.com/user-attachments/assets/faa2fe64-f6f8-4a21-8b9e-886b56f55214" />
-)(<img width="451" height="675" alt="image" src="https://github.com/user-attachments/assets/e96da0ba-8d7f-46bd-80ed-815706ae8099" />
-) |
+(<img width="899" height="717" alt="image" src="https://github.com/user-attachments/assets/faa2fe64-f6f8-4a21-8b9e-886b56f55214" />
+(<img width="451" height="675" alt="image" src="https://github.com/user-attachments/assets/e96da0ba-8d7f-46bd-80ed-815706ae8099" />
+ 
 
 ---
 
@@ -71,7 +70,7 @@ Como é um projeto estático, é muito simples de rodar na sua máquina.
 
 1.  **Clone o repositório:**
     ```bash
-   
+   https://github.com/chelzzzs/Mordomo-Financeiro
     ```
 2.  **Acesse a pasta:**
     ```bash
